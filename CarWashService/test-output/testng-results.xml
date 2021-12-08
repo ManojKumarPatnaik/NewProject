@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-04T13:03:45Z" name="Default suite" finished-at="2021-08-04T13:04:38Z" duration-ms="53136">
+    <groups>
+    </groups>
+    <test started-at="2021-08-04T13:03:45Z" name="Default test" finished-at="2021-08-04T13:04:38Z" duration-ms="53136">
+      <class name="com.justdial.testcases.FreelistingTestCases">
+        <test-method is-config="true" signature="browser()[pri:0, instance:com.justdial.testcases.FreelistingTestCases@7674b62c]" started-at="2021-08-04T13:03:45Z" name="browser" finished-at="2021-08-04T13:04:01Z" duration-ms="16421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="launch()[pri:1, instance:com.justdial.testcases.FreelistingTestCases@7674b62c]" started-at="2021-08-04T13:04:01Z" name="launch" finished-at="2021-08-04T13:04:12Z" duration-ms="10713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="allNullValues()[pri:2, instance:com.justdial.testcases.FreelistingTestCases@7674b62c]" started-at="2021-08-04T13:04:12Z" name="allNullValues" finished-at="2021-08-04T13:04:15Z" duration-ms="2778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allNullValues -->
+        <test-method signature="companyNullValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.justdial.testcases.FreelistingTestCases@7674b62c]" started-at="2021-08-04T13:04:21Z" name="companyNullValue" data-provider="testData" finished-at="2021-08-04T13:04:22Z" duration-ms="1072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best Car Wash Service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ManojKumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Uriti]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9985724145]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22447879]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- companyNullValue -->
+        <test-method signature="mobileNullValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.justdial.testcases.FreelistingTestCases@7674b62c]" started-at="2021-08-04T13:04:22Z" name="mobileNullValue" data-provider="testData" finished-at="2021-08-04T13:04:28Z" duration-ms="5431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best Car Wash Service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ManojKumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Uriti]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9985724145]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22447879]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNullValue -->
+        <test-method signature="cityNullvalue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.justdial.testcases.FreelistingTestCases@7674b62c]" started-at="2021-08-04T13:04:28Z" name="cityNullvalue" data-provider="testData" finished-at="2021-08-04T13:04:33Z" duration-ms="4906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best Car Wash Service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ManojKumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Uriti]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9985724145]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22447879]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityNullvalue -->
+        <test-method signature="validDataTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.justdial.testcases.FreelistingTestCases@7674b62c]" started-at="2021-08-04T13:04:33Z" name="validDataTest" data-provider="testData" finished-at="2021-08-04T13:04:37Z" duration-ms="3851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best Car Wash Service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ManojKumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Uriti]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9985724145]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22447879]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataTest -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.justdial.testcases.FreelistingTestCases@7674b62c]" started-at="2021-08-04T13:04:37Z" name="terminate" finished-at="2021-08-04T13:04:38Z" duration-ms="1350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.justdial.testcases.FreelistingTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

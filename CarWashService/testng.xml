@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="Suite" parallel="tests">
+
+  <test  name="Homepage">
+  <classes>
+   <class name="com.justdial.testcases.HomepageTestCases"/>
+   </classes>
+  </test> 
+  
+  <test name="Freelisting">
+		  <classes>
+		  <class name="com.justdial.testcases.FreelistingTestCases"/>
+		  </classes>
+  </test>
+		  
+  <test name="Fitness">
+		  <classes>
+		  <class name="com.justdial.testcases.FitnessTestCases"/>
+		  </classes>
+  </test>
+  
+</suite> <!-- Suite -->

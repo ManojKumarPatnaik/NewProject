@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Homepage(failed)">
+    <classes>
+      <class name="com.justdial.testcases.HomepageTestCases">
+        <methods>
+          <include name="locationTest"/>
+          <include name="ratingCheck"/>
+          <include name="dataFromMenubar"/>
+          <include name="resultPageTest"/>
+          <include name="searchingTest"/>
+          <include name="printData"/>
+          <include name="terminate"/>
+          <include name="bestdealsTest"/>
+          <include name="Browser"/>
+        </methods>
+      </class> <!-- com.justdial.testcases.HomepageTestCases -->
+    </classes>
+  </test> <!-- Homepage(failed) -->
+  <test thread-count="1" parallel="tests" name="Freelisting(failed)">
+    <classes>
+      <class name="com.justdial.testcases.FreelistingTestCases">
+        <methods>
+          <include name="allNullValues"/>
+          <include name="companyNullValue"/>
+          <include name="validDataTest"/>
+          <include name="launch"/>
+          <include name="terminate"/>
+          <include name="mobileNullValue"/>
+          <include name="browser"/>
+          <include name="cityNullvalue"/>
+        </methods>
+      </class> <!-- com.justdial.testcases.FreelistingTestCases -->
+    </classes>
+  </test> <!-- Freelisting(failed) -->
+</suite> <!-- Failed suite [Suite] -->
